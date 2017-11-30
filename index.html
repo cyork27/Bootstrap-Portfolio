@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
 	<title>Chris York</title>
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
-
 <body>
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Chris York</a>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	  </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 	<!-- HEADER -->
-	<div class = "container">		
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class = "col-md-8">
-				 <h1>Chris York</h1>
-				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				 </button>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="page-header">
+	 	 		<h1>About Me</h1>
 			</div>
-			<div class = "col-md-4">
-				<div class="collapse navbar-collapse" id="navbarNav">
-				   <ul class="navbar-nav">
-				     <li class="nav-item active">
-				       <a class="nav-link" href="index.html" target= "_blank">About <span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-				      </li>
-				    </ul>
-				</div>
-			</div>
-		</nav>
-	</div>
-	
 	<!-- CONTENT -->
-	<div class = "container">
-		<div class = "row">
-			<div class = "col-md-4">
-				<h1>About Me</h1>
-				<img alt="Chris York skate" src="assets/images/starpass.jpg" width="200" height="auto">
+			<div class="row">
+			  <div class="col-sm-3">
+			      <img src="assets/images/starpass.jpg" alt="Chris York skating" class=thumbnail height="150" width="150">
+			  </div>
+			  <div class="col-sm-9">
+			      <div class="caption">
+			        <p>Lorem Khaled Ipsum is a major key to success. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. Bless up. Learning is cool, but knowing is better, and I know the key to success. You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. Bless up.</p>
+			      </div>
+			  </div>
 			</div>
-			<div class = "col-md-4"
-				<p>Lorem Khaled Ipsum is a major key to success. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. Bless up. Learning is cool, but knowing is better, and I know the key to success. You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed. Bless up.</p>
+		</div>
+	<!-- SIDEBAR -->
+		<div class="col-sm-4">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">Connect With Me</h3>
+			  </div>
+			  <div class="panel-body">
+			    <a href="https://github.com/cyork27" target="_blank">
+					<img src="assets/images/gitcat.png" alt="github link" width=50 height= auto alt="githublink" >
+				</a>
+				<a href="https://www.linkedin.com/in/chris-york-570a50146/" target="_blank">
+					<img src="assets/images/linkedin.png" width=50 height=auto alt="linkedin">
+				</a>
+				<a href="https://stackoverflow.com/users/8886470/cyork" target="_blank">
+					<img src="assets/images/stackoverflow.png" alt="stackoverflow icon" width=50 height=auto alt="stackoverflow link">
+				</a>
+			  </div>
 			</div>
+		</div>
 
-	<!-- CONNECT WITH ME -->
-			<div class="col-md-4">
-				<div class= "card-text-center">
-					<h2>Connect with Me</h2>
-						<a href="https://github.com/cyork27">
-							<img alt="github cat" src="assets/images/gitcat.png" width=50 height=auto>
-						</a>
-						<a href="https://www.linkedin.com/in/chris-york-570a50146">
-							<img alt="linkedin"	src="assets/images/linkedin.png"
-							width=50 height=auto>
-						</a>
-						<a href="https://stackoverflow.com/users/8886470/cyork">
-							<img alt="stackoverflow" src="assets/images/stackoverflow.png" width=50 height=auto>
-						</a>
-				</div>
-			</div>
+	<!-- FOOTER -->
+  			<div class="footer navbar-fixed-bottom">
+    			<div class="navbar-header">
+      				<p>Copyright &copy; 2017 Chris York</p>
+    			</div>
+  			</div>
+</div>
 
-
-	</div>
 </body>
 </html>
